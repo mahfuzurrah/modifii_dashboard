@@ -74,11 +74,11 @@ function LogIn() {
                       <p>Remember me</p>
                     </span>
                     <Link to="#" className="fuP">
-                      Forget your password?
+                    Forgot Password?
                     </Link>
                   </div>
                   <Link to="">
-                    <button className="btn">Log In</button>
+                    <button className="btn">Sign In</button>
                   </Link>
                 </form>
               </div>
