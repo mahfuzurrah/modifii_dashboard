@@ -128,7 +128,7 @@ label {
   font-weight: var(--font-medium);
 }
 
-.container_fluid {
+.container-fluid {
   width: 100%;
   height: 100%;
 }

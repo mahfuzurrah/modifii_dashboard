@@ -34,7 +34,7 @@ function LogIn() {
 
   return (
     <div className="logIn_page">
-      <div className="container_fluid">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6">
             <div className="login_form">
