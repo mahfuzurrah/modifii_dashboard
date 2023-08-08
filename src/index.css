@@ -7,8 +7,7 @@
   --title-color: #101828;
   --description-color: #718096;
   --white-color: #ffffff;
-  --border-color: #e2e8f0;
-  --body-color: #f3f5fa;
+  --border-color: #E2E8F0;
   /* TYPOGRAPHY */
   --body-font: "Inter", sans-serif;
   --title-font: "Manrope", sans-serif;
@@ -117,6 +116,7 @@ input {
 
 .form-control::placeholder {
   font-size: var(--normal-font-size);
+  color: #A0AEC0;
 }
 
 input[type="checkbox"] {
@@ -231,10 +231,20 @@ All pages css start
   gap: 10px;
 }
 
+.logIn_page .form_area .remember_me p{
+  font-family: var(--font-medium);
+  color: var(--title-color);
+}
+
+.logIn_page .form_area .fuP {
+  font-weight: var(--font-medium);
+  color: var(--secondary-color);
+}
+
 .logIn_page .form_area .btn {
   display: block;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .logIn_page .form_area .forget_area {
@@ -243,8 +253,7 @@ All pages css start
   align-items: center;
   gap: 10px;
   width: 100%;
-  ;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .logIn_page .form_area .redio_input {

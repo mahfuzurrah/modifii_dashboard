@@ -71,13 +71,13 @@ function LogIn() {
                   <div className="forget_area">
                     <span className="remember_me">
                       <input type="radio" className="redio_input" />
-                      Remember me
+                      <p>Remember me</p>
                     </span>
-                    <Link to="#" className="mt-3">
+                    <Link to="#" className="fuP">
                       Forget your password?
                     </Link>
                   </div>
-                  <Link to="" className="mt-3">
+                  <Link to="">
                     <button className="btn">Log In</button>
                   </Link>
                 </form>
