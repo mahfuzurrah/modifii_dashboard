@@ -84,7 +84,7 @@ function LogIn() {
               </div>
               <div className="logIn_footer">
                 <Link to="">Privacy Policy</Link>
-                <p>Copyright 2022</p>
+                <p>Copyright 2024</p>
               </div>
             </div>
           </div>
