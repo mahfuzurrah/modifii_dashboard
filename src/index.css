@@ -1,13 +1,323 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  /* COLOR */
+  --primary-color: #feb902;
+  --secondary-color: #09a4ef;
+  --title-color: #101828;
+  --description-color: #718096;
+  --white-color: #ffffff;
+  --border-color: #e2e8f0;
+  --body-color: #f3f5fa;
+  /* TYPOGRAPHY */
+  --body-font: "Inter", sans-serif;
+  --title-font: "Manrope", sans-serif;
+  /* Font Size */
+  --h1-font-size: 32px;
+  --h2-font-size: 24px;
+  --h3-font-size: 20px;
+  --normal-font-size: 15px;
+  --small-font-size: 12px;
+  /* Font Weight */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-ex-bold: 800;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*========== BASE ==========*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--title-color);
+  background: var(--white-color);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: var(--font-ex-bold)
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: var(--font-ex-bold)
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: var(--font-ex-bold)
+}
+
+p {
+  font-size: var(--normal-font-size);
+  color: var(--description-color);
+  margin: 0;
+  line-height: 1.6;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--title-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icons {
+  font-size: 18px;
+  color: var(--description-color);
+}
+
+.button {
+  border: none !important;
+}
+
+textarea,
+input {
+  padding: 8px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.form-control::placeholder {
+  font-size: var(--normal-font-size);
+}
+
+input[type="checkbox"] {
+  width: 16px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: var(--font-medium);
+}
+
+.container_fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  padding: 10px 25px;
+  background: var(--primary-color);
+  color: var(--title-color);
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  border-radius: 8px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  font-weight: var(--font-bold);
+}
+
+.btn_s {
+  padding: 10px 25px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color) !important;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  border-radius: 8px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: var(--font-bold);
+}
+
+.btn_s .icons {
+  color: var(--primary-color);
+}
+
+.btn_s:hover,
+.btn:hover {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  border: 1px solid transparent !important;
+}
+
+.btn_group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn_area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* +++++++++++++
+All pages css start
+++++++++++++++++ */
+
+/* =============== LogIn Page CSS ================= */
+
+.logIn_page {
+  padding: 30px 30px;
+  width: 100%;
+  height: 100vh !important;
+}
+
+.logIn_page .row {
+  height: 100%;
+}
+
+
+.logIn_page .login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logIn_page .login_form .login_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logIn_page .form_area {
+  width: 450px;
+  text-align: center;
+}
+
+.logIn_page .form_area .remember_me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logIn_page .form_area .btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logIn_page .form_area .forget_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  ;
+  margin-top: 20px;
+}
+
+.logIn_page .form_area .redio_input {
+  width: auto;
+}
+
+.logIn_page .login_form .lang_selector {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logIn_page .login_form .lang_selector .icons {
+  position: absolute;
+  left: 8%;
+  z-index: 1;
+}
+
+.logIn_page .login_form .lang_selector .selector {
+  min-width: 160px;
+  border-radius: 16px;
+}
+
+.logIn_page .login_form .lang_selector .selector .css-1fdsijx-ValueContainer {
+  padding-left: 40px;
+  border-radius: 8px;
+}
+
+.password-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-input-container .password-toggle-icon {
+  position: absolute;
+  right: 20px;
+  color: var(--description-color);
+}
+
+.logIn_page .logIn_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.logIn_page .login_img {
+  width: 100%;
+  height: 100%;
+  background: #EDF2F7;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logIn_page .login_img img {
+  margin: auto;
+}
+
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
+/* =============== LogIn Page CSS ================= */
