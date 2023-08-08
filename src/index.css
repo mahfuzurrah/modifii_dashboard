@@ -195,7 +195,7 @@ All pages css start
 /* =============== LogIn Page CSS ================= */
 
 .logIn_page {
-  padding: 20px;
+  /* padding: 20px; */
   padding-right: 0;
   width: 100%;
   height: 100vh !important;

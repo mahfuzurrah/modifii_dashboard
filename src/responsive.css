@@ -1,0 +1,5 @@
+@media screen and (max-width: 991px) {
+  .logIn_page .login_img{
+    display: none;
+  }
+}
