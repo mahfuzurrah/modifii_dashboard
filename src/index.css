@@ -228,6 +228,10 @@ All pages css start
   text-align: center;
 }
 
+.logIn_page .form_area .desc{
+  font-weight: var(--font-medium);
+}
+
 .logIn_page .form_area .remember_me {
   display: flex;
   align-items: center;

@@ -53,7 +53,7 @@ function LogIn() {
               <div className="form_area">
                 <div className="mb-5">
                 <h1>Sign in to Modifii</h1>
-                <p className="mt-2">Simple, all-in-one management software</p>
+                <p className="mt-2 desc">Simple, all-in-one management software</p>
                 </div>
                 <form action="" className="input_form">
                   <InputField
