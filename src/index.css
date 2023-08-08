@@ -131,6 +131,7 @@ label {
 .container-fluid {
   width: 100%;
   height: 100%;
+  padding: 0 20px;
 }
 
 .btn {
@@ -194,7 +195,8 @@ All pages css start
 /* =============== LogIn Page CSS ================= */
 
 .logIn_page {
-  padding: 30px 30px;
+  padding: 20px;
+  padding-right: 0;
   width: 100%;
   height: 100vh !important;
 }
@@ -317,7 +319,7 @@ All pages css start
   margin: auto;
 }
 
-div#react-select-2-placeholder{
+.css-hlgwow{
   padding-left: 40px;
 }
 
