@@ -317,6 +317,10 @@ All pages css start
   margin: auto;
 }
 
+div#react-select-2-placeholder{
+  padding-left: 40px;
+}
+
 /* =============== LogIn Page CSS ================= */
 /* =============== LogIn Page CSS ================= */
 /* =============== LogIn Page CSS ================= */
