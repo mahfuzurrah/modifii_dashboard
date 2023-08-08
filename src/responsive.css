@@ -1,5 +1,13 @@
 @media screen and (max-width: 991px) {
+  /* =============== LogIn Page CSS ================= */
   .logIn_page .login_img{
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* =============== LogIn Page CSS ================= */
+  .logIn_page .form_area{
+    width: 100%;
   }
 }

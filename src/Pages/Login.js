@@ -36,7 +36,7 @@ function LogIn() {
     <div className="logIn_page">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="login_form">
               <div className="login_header">
                 <img src={Logo} alt="" />
@@ -88,7 +88,7 @@ function LogIn() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="login_img">
               <img src={Login_img} alt="" />
             </div>
