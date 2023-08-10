@@ -70,7 +70,7 @@ function LogIn() {
                   />
                   <div className="forget_area">
                     <span className="remember_me">
-                      <input type="radio" className="redio_input" />
+                      <input type="checkbox" className="redio_input" />
                       <p>Remember me</p>
                     </span>
                     <Link to="#" className="fuP">
