@@ -3,6 +3,10 @@
   .logIn_page .login_img{
     display: none;
   }
+
+  .logIn_page .login_form{
+    height: 94vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
