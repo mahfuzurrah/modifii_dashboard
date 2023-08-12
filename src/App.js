@@ -21,7 +21,6 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/support" element={<Support />} />
             <Route path="/user-management" element={<UserManagement />} />
-            <Route path="/support" element={<Support />} />
           </Route>
         </Routes>
       </Router>
