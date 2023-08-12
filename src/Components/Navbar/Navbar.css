@@ -1,0 +1,190 @@
+.sidebar {
+    position: fixed !important;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.sidebar .side_bar_menu_list {
+    height: 95vh;
+    overflow-y: auto;
+    padding-bottom: 30px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+}
+
+.sidebar .side_bar_menu_list .ant-menu-item-icon {
+    font-size: 24px;
+    color: #5D6A83;
+}
+
+.collapsed-sider {
+    left: 0 !important;
+}
+
+.ant-menu-title-content {
+    color: #2A313C;
+}
+
+.sidebar_top {
+    margin-top: 42px;
+}
+
+.side_bar_menu_list hr {
+    border: 1px solid #475467;
+}
+
+.ant-layout-sider {
+    min-width: 250px !important;
+    background: #FAFAFA !important;
+    padding: 16px;
+}
+
+.ant-menu {
+    background: transparent !important;
+}
+
+.ant-menu .ant-menu-item {
+    color: #2A313C;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.complite_profile {
+    padding: 16px;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.complite_profile .ant-progress-inner {
+    width: 64px !important;
+    height: 64px !important;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.complite_profile .ant-progress-text {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--white-color) !important;
+}
+
+.complite_profile p {
+    color: var(--gray-200);
+    font-size: var(--small-font-size);
+}
+
+.sidenav_user,
+.sidenav_user .user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.sidenav_user .user p span {
+    font-size: var(--small-font-size);
+    color: var(--description-color);
+}
+
+.sidenav_user .user p {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.sidenav_user .user p.gmail {
+    color: var(--description-color);
+    font-weight: 400;
+}
+
+.sidenav_user .user_img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.sidenav_user .logout_icon {
+    rotate: -90deg;
+    font-size: 24px;
+}
+
+.fixed-header{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    width: -webkit-fill-available;
+    z-index: 100;
+}
+
+
+.ant-layout-header {
+    background: var(--white-color);
+    border-radius: 16px;
+    border: 1px solid #CBD5E0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.topbar_nav_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    gap: 30px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.right_nav_item,
+.top_nav_icon_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.top_nav_icon_list .icons {
+    font-size: 24px;
+}
+
+.header_toggle_btn {
+    margin-left: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_nav_sell_btn {
+    padding: 4px 8px;
+    background: #1A202C;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: normal;
+    border-radius: 8px;
+    min-width: max-content;
+}
+
+.top_nav_sell_btn .icons {
+    color: var(--white-color);
+}
+
+.header_toggle_btn .icons {
+    font-size: 24px !important;
+}
+
+.header_toggle_btn:hover {
+    background: none !important;
+}
+
+.right_nav_item .T_mobile {
+    padding-left: 30px;
+    border-left: 1px solid var(--border-color);
+    line-height: normal;
+}

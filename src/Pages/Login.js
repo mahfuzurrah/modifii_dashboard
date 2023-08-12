@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BiGlobe } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import Logo from "../Components/Assets/Icons/Logo.svg";
-import Login_img from "../Components/Assets/Images/Login.png";
 import InputField from "../Components/InputField/InputField";
 import PasswordInput from "../Components/InputField/PasswordInput";
 import Selector from "../Components/Selector/Selector";
+import Logo from "../Components/assets/Icons/Logo.svg";
+import Login_img from "../Components/assets/Images/Login.png";
 
 function LogIn() {
   const options = [
@@ -39,7 +39,7 @@ function LogIn() {
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="login_form">
               <div className="login_header">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="Logo" className="logo" />
                 <div className="lang_selector">
                   <BiGlobe className="icons" />
                   <Selector
@@ -52,8 +52,10 @@ function LogIn() {
               </div>
               <div className="form_area">
                 <div className="mb-5">
-                <h1>Sign in to Modifii</h1>
-                <p className="mt-2 desc">Simple, all-in-one management software</p>
+                  <h1>Sign in to Modifii</h1>
+                  <p className="mt-2 desc">
+                    Simple and secure all-in-one management software
+                  </p>
                 </div>
                 <form action="" className="input_form">
                   <InputField
@@ -74,10 +76,10 @@ function LogIn() {
                       <p>Remember me</p>
                     </span>
                     <Link to="#" className="fuP">
-                    Forgot Password?
+                      Forgot Password?
                     </Link>
                   </div>
-                  <Link to="">
+                  <Link to="/dashboard">
                     <button className="btn">Sign In</button>
                   </Link>
                 </form>
