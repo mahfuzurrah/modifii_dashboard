@@ -56,4 +56,4 @@ const IconInputField = ({ labels, ids, placeholders, star }) => {
   );
 };
 
-export default IconInputField;
+export default IconInputField; 
