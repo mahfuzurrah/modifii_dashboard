@@ -60,7 +60,7 @@ const MainLayout = () => {
   ];
 
   const handleMenuItemClick = (itemKey) => {
-    setActiveItem(itemKey);
+    setActiveItem(itemKey); // Update the activeItem state
     navigate(`/${itemKey}`);
   };
 
